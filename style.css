@@ -72,6 +72,77 @@ body {
     padding: 24px;
 }
 
+
+
+
+
+/* start questions page style */
+body{
+    background-color: #B8B8B8;
+}
+.question-header{
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.question-counts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.all-questions{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* .question-title{
+    margin-bottom: 20px;
+} */
+.question-result {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.result{
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    gap: 12px;
+    border-radius: 8px;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.result:hover{
+    background-color:rgb(222, 222, 222) ;
+}
+.result span{
+    background-color: #3D743F;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px 0 0 8px;
+}
+.next-btn{
+    background-color: #656565;
+    color: white;
+    border: 0ch;
+    width: 160px;
+    height: 35px;
+    border-radius: 8px;
+    align-self: flex-end;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+.next-btn:hover{
+    background-color: #8f8c8c;
+}
 .rules{
     width: 540px;
     background: #fff;
