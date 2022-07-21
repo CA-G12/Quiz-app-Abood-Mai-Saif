@@ -186,3 +186,47 @@ body{
     border-radius: 8px;
     cursor: pointer;
 }
+
+/* start leader board page */
+.container-leader-board {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score {
+    font-size: 50px;
+    color: #3D743F;
+    font-weight: bold;
+}
+.username {
+    font-size: 40px;
+}
+
+.save-btn {
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 16px 16px;
+    background: #656565;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+.save-btn:hover , .agin-btn:hover{
+    background: #6e6e6e;
+}
+.agin-btn {
+    font-size: 16px;
+    padding: 8px;
+    background: #656565;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
