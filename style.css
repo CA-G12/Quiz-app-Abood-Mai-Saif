@@ -133,6 +133,9 @@ body{
     border: 0ch;
     width: 160px;
     height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
     align-self: flex-end;
     font-size: 1.1rem;
