@@ -7,5 +7,55 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #B8B8B8;
+}
+.startOuiz{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.startOuiz .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:429px;
+    height: 310px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.startOuiz .content label{
+    font-size: 45px;
+}
+.startOuiz .content input{
 
-
+    background-color: #D7D7D7;
+    width: 270px;
+    height: 61px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    padding: 16px;
+}
+.startOuiz .content button{
+    width: 91px;
+    height: 38px;
+    border-radius: 15px;
+    border: 0;
+    margin-top: 15px;
+    background-color: #928989;
+    transition: all .5s ;
+    cursor: pointer;
+}
+.startOuiz .content button a{
+    text-decoration: none;
+    color: #fff;
+}
+.startOuiz .content button:hover{
+    background-color: #B8B8B8;
+    
+}
